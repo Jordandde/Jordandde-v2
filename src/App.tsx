@@ -13,6 +13,7 @@ import {
 import JordanddeBanner from "./components/jordandde"
 import LeftCard from "./components/leftCard";
 import RightCard from "./components/rightCard";
+import { inject } from '@vercel/analytics';
 
 let hrefs = ["Contact","About", "Experience", "Projects"];
 let title = ["Contact and Resume","About Me", "Technical Experience", "Projects"];
@@ -27,6 +28,7 @@ const stick = ["Jord", "And","de",""];
 const offsets = [{},{position: "relative"},{marginTop:"19vh", position:"relative"},{marginTop:"38vh", position:"relative"}];
 //container height will be 251vh
 function App() {
+  inject();
   return (
     <div>
       <IntroContainer

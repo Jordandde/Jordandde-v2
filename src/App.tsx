@@ -18,10 +18,10 @@ import { inject } from '@vercel/analytics';
 let hrefs = ["Contact","About", "Experience", "Projects"];
 let title = ["Contact and Resume","About Me", "Technical Experience", "Projects"];
 let descriptions = [
-  "Learn about how to contact me, and a link to my resume.",
-  "Learn more about me, including my current degree, hobbies, and interests.",
-  "Learn more about technical experience, including the languages that I am profficient in, and my work history.",
-  "Learn more about my various projects."
+  "Click here to learn about how to contact me, and a link to my resume.",
+  "Click here to learn more about me, including my current degree, hobbies, and interests.",
+  "Click here to learn more about technical experience, including the languages that I am profficient in, and my work history.",
+  "Click here to learn more about my various projects."
 ];
 const stay = ["","an","rew","Souza"];
 const stick = ["Jord", "And","de",""];

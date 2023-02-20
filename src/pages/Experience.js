@@ -11,6 +11,7 @@ import IBMLogo from "../images/IBM_logo_in.jpeg";
 import OpenTextLogo from "../images/OpenText_logo.jpeg";
 import BitbackLogo from "../images/Bitback_logo.jpg";
 import TugoloLogo from "../images/tugolo.jpg";
+import { inject } from '@vercel/analytics';
 
 const titles = ["IBM, TM1 Server Team","OpenText","Bitback", "IBM, Skills Network Team", "Tugolo"];
 const subtitles= ["Backend Developer Intern","Software Engineering Intern","Backend Developer Intern", "Backend Developer Intern","Full Stack Developer Intern"];
@@ -24,6 +25,7 @@ const descriptions= [
 ];
 const images = [IBMLogo,OpenTextLogo ,BitbackLogo, IBMLogo, TugoloLogo];
 const Page2 = () => {
+  inject();
   return (
     <Container
       style={{

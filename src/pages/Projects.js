@@ -13,6 +13,7 @@ import busData from "../Animations/lotties/6546-broken-bus.json";
 import padData from "../Animations/lotties/8026-taking-notes.json";
 import cData from "../Animations/lotties/17288-c-programming-animation.json";
 import messageData from "../Animations/lotties/5919-writing-message-loading.json";
+import { inject } from '@vercel/analytics';
 
 const links = ["https://github.com/Jordandde/Real-time-Operating-System","https://github.com/Jordandde/RSCode","https://github.com/Jordandde/Solar-Charging-Sun-Tracking-Battery.git","https://www.hackerearth.com/challenges/hackathon/yhack-2018/dashboard/163ea9a/submission/?fbclid=IwAR0CG-hYgm2ui1mRBbY6SZ5ZpI9MjmFcuaABbmw0Pnb5u3AHcD-QTa8-ScU","https://github.com/Jordandde/Secure-Laser-Communication-System.git" ];
 const lotties = [cData,padData,sunData, busData,messageData];
@@ -26,6 +27,7 @@ const descriptions = ["As part of my RTOS class I had to build an RTOS from scra
 "A system of lasers and photodiodes that transmits text using morse code for discrete, secure, communications without leaving behind any traceable evidence. \n Written in C with hardware controlled by a Raspberry Pi "
 ];
 const Page3 = () => {
+  inject();
   return (
     <Container
       style={{

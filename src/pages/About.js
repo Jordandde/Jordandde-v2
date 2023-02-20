@@ -14,6 +14,7 @@ import Golang from "../images/1_Ifpd_HtDiK9u6h68SZgNuA.png";
 import Music from "../images/IMG_2061.JPG";
 import UCan from "../images/o-CANADA-UNITED-STATES-FLAGS-facebook.jpeg";
 import lol from "../images/LoL_icon.svg.png";
+import { inject } from '@vercel/analytics';
 
 const titles = ["Education", "Software Career","Professional Musician", "Looking for Internships","Other Hobbies"];
 const subTitles =["Details on my education","Details on my experience", "Details on my experience","starting May 2023","Details on other hobbies"];
@@ -27,6 +28,7 @@ const descriptions = [
   "Aside from music and coding, I also love playing video games like League of Legends and Valorant! I am also a professional Pokemon card player and I was ranked in the top 4000 players online from November 2022 to the present. I've also been playing table tennis since I was a small child and I am always up for a quick game during breaks or while waiting for my code to finish building."
 ]
 const Page1 = () => {
+  inject();
   return (
     <Container
       style={{

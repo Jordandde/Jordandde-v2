@@ -24,7 +24,7 @@ let descriptions = [
   "Click here to learn more about my various projects."
 ];
 const stay = ["","an","rew","Souza"];
-const stick = ["Jord", "And","de",""];
+const stick = ["Jord", "And","De",""];
 const offsets = [{},{position: "relative"},{marginTop:"19vh", position:"relative"},{marginTop:"38vh", position:"relative"}];
 //container height will be 251vh
 function App() {
